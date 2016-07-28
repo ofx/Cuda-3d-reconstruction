@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{21f30a44-f013-4844-b328-cdb721718764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{2b400c5d-8ecb-43ac-a7b2-d0307725e176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuda">
+      <UniqueIdentifier>{cc0e800d-0e5c-467b-a0db-6bfcdc3e8eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuda\Source">
+      <UniqueIdentifier>{9cae5101-3442-42c8-814d-3507a9845129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuda\Headers">
+      <UniqueIdentifier>{773eb00c-df59-4534-ab33-f6c992c80ee1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceKeyer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Reconstructor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceKeyer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Reconstructor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="reconstructor.cuh">
+      <Filter>Cuda\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="compute_matte.cuh">
+      <Filter>Cuda\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_common.cuh">
+      <Filter>Cuda\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Getopt.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="init.cuh">
+      <Filter>Cuda\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil_math.cuh">
+      <Filter>Cuda\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="compute_matte.cu">
+      <Filter>Cuda\Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="reconstructor.cu">
+      <Filter>Cuda\Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="init.cu">
+      <Filter>Cuda\Source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
